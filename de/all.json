@@ -51,6 +51,7 @@
       "CHANGE_DOCUMENT_ICON": "Dokumentsymbol ändern",
       "CHANGE_DOCUMENT_STATUS": "Dokumentstatus ändern",
       "CHANGE_FOLDER_ICON": "Ordnersymbol ändern",
+      "CUSTOMIZE_SPACED_REPETITION": "Anpassung für Spaced Repetition",
       "DELETE": "Löschen",
       "EDIT_MODE": {
         "READ": "Nur-Lese-Modus",
@@ -197,7 +198,8 @@
       "HIGHLIGHT": "Markieren",
       "MAKE_IMG_OCC_BTN_TOOLTIP": "Karteikarten mit Bildverdeckung erstellen",
       "NOTE_BTN_TOOLTIP": "Notiz",
-      "NO_TEXT_IN_PDF_WARN": "Diese Datei beinhaltet keine Textebene, aber du kannst trotzdem Flächen hervorheben um zu annotieren."
+      "NO_TEXT_IN_PDF_WARN": "Diese Datei beinhaltet keine Textebene, aber du kannst trotzdem Flächen hervorheben um zu annotieren.",
+      "COPY_IMAGE_AS_TEXT": "Bild als Text kopieren"
     },
     "EDIT_ANNOTATIONS": {
       "ADVANCED_LINKING_OPTIONS": "Erweiterte Verknüpfungsoptionen",
@@ -333,7 +335,12 @@
       "NOTIFICATIONS": {
         "DESCRIPTION": "Senden Sie mobile Push-Erinnerungen über Ihre tägliche Lernkarten Erfolgsserie. Die Erinnerungen kommen jeden Tag um 18:00 Uhr in Ihrer lokalen Zeitzone.",
         "TITLE": "Mobile Erfolgsserie Benachrichtigungen"
-      }
+      },
+      "ADVANCED_KEYWORDS": "Schlüsselwörter für erweiterte Einstellungen",
+      "AUTHENTICATION_KEYWORDS": "Schlüsselwörter für Authentifizierung",
+      "EXPORT_IMPORT_KEYWORDS": "Schlüsselwörter für Export/Import",
+      "NAVIGATION_KEYWORDS": "Schlüsselwörter für Navigation",
+      "PROFILE_KEYWORDS": "Schlüsselwörter für Profil"
     },
     "EARN_CREDIT": {
       "APPLY_CREDIT": "Guthaben anwenden",
@@ -436,6 +443,10 @@
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "Animieren Sie beim Hinzufügen oder Entfernen von Rems im Editor.",
         "TITLE": "Animieren Sie den Editor fließend"
+      },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "Mit Enter Ausrücken",
+        "TITLE": "Option zum Ausrücken beim Drücken der Enter-Taste aktivieren"
       }
     },
     "FLASHCARDS": {
@@ -528,6 +539,16 @@
           "DESCRIPTION": "Zeigen Sie auf jeder Antwortschaltfläche die Zeit bis zur nächsten Bewertung an.",
           "TITLE": "Nächste Wiederholungszeiten anzeigen"
         }
+      },
+      "AI": {
+        "ENABLE": {
+          "DESCRIPTION": "Beschreibung für das Aktivieren von KI-gestützten Lernkarten",
+          "TITLE": "KI-gestützte Lernkarten aktivieren"
+        },
+        "OPENAI_KEY": {
+          "DESCRIPTION": "OpenAI-Schlüsselbeschreibung für Lernkarten",
+          "TITLE": "OpenAI-Schlüssel für KI-gestützte Lernkarten"
+        }
       }
     },
     "GLOBAL_INTERFACE": {
@@ -566,9 +587,15 @@
         "LABEL": "Vereinfachen Sie die Benutzeroberfläche und blenden Sie erweiterte Funktionen aus.",
         "TITLE": "Vereinfachte Benutzeroberfläche"
       },
+      "ONBOARDING_TIPS": {
+        "KEYWORDS": "Schlüsselwörter für Onboarding-Tipps",
+        "LABEL": "Onboarding-Tipps-Label",
+        "TITLE": "Onboarding-Tipps-Titel"
+      },
       "ONBOARDING_TIPS_FEATURES": {
         "LABEL": "Zeigen Sie Tipps zu den RemNote-Funktionen, die Sie gerade verwenden, in der Ecke des Bildschirms an.",
-        "TITLE": "Onboarding-Tipps"
+        "TITLE": "Onboarding-Tipps",
+        "KEYWORDS": "Schlüsselwörter für Onboarding-Funktionen und Tipps"
       }
     },
     "KEYBOARD_SHORTCUTS": {
@@ -643,7 +670,9 @@
       "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
       "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht eingerichtet. Klicke hier um sie zu aktivieren!",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
-      "TOGGLE_TITLE": "Benachrichtigungen filtern"
+      "TOGGLE_TITLE": "Benachrichtigungen filtern",
+      "ENABLE_EXAM_TITLE": "Prüfungsbenachrichtigungen aktivieren",
+      "ENABLE_EXAM_DESCRIPTION": "Benachrichtigungen für Prüfungen aktivieren, um rechtzeitig informiert zu sein."
     },
     "PLANS": {
       "KEYWORDS": "Freunde einladen Tarif Abonnement ändern Guthaben verdienen kostenlos remnote verschicke twitter Nachricht wähle einen Tarif Lebenslanges lernen pro Aufschlüsselung der Funktionen Preisoptionen",
@@ -659,6 +688,7 @@
       },
       "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> .",
       "SORT_SIDEBAR": {
+        "KEYWORDS": "Schlüsselwörter für die Sortierung der Seitenleiste",
         "TITLE": "Seitenleiste sortieren"
       },
       "COMMUNITY_TAB": {
@@ -720,7 +750,8 @@
       "FILTER": {
         "ADD_ADVANCED_FILTER": "Erweiterten Filter hinzufügen",
         "FILTER_TITLE": "Filter",
-        "NO_PROPERTIES_AVAILABLE": "Es sind keine Eigenschaften verfügbar; Füge eine Neue hinzu!"
+        "NO_PROPERTIES_AVAILABLE": "Es sind keine Eigenschaften verfügbar; Füge eine Neue hinzu!",
+        "NO_FILTER": "Kein Filter"
       },
       "SORT": {
         "SORT_TITLE": "Sortieren"
@@ -811,6 +842,24 @@
     "TEMPLATE_one": "Vorlage",
     "TEMPLATE_other": "Vorlagen",
     "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“.",
-    "VIEW_CONFIGURATION": "Tag konfigurieren"
+    "VIEW_CONFIGURATION": "Tag konfigurieren",
+    "ADD_PROPERTY": "Eigenschaft hinzufügen",
+    "NEW_PROPERTY": "Neue Eigenschaft"
+  },
+  "COMMUNITY_NOTIFICATIONS": {
+    "DOCUMENT_ADDED_TO_GROUP": {
+      "BODY": "Ein Dokument wurde zur Gruppe hinzugefügt."
+    },
+    "INVITE": {
+      "ACCEPT": "Einladung annehmen",
+      "BODY": "Einladung annehmen",
+      "REJECT": "Einladungstext"
+    },
+    "NEW_FOLLOWER": {
+      "BODY": "Benachrichtigung über neuen Followe"
+    },
+    "NEW_LIKE": {
+      "BODY": "Benachrichtigung über ein neues Like"
+    }
   }
 }
